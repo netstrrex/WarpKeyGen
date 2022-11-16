@@ -13,7 +13,7 @@ from warp import WarpKeyGenerator
 async def main():
     async with ClientSession() as session:
         key_gen = WarpKeyGenerator(session)
-    print(await key_gen.generate_key())
+        print(await key_gen.generate_key())
 ```
 
 # Result✅
