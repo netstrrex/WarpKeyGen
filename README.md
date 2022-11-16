@@ -8,7 +8,7 @@ A simple async license key generator for warp vpn!😎
 # How to use it🤔
 ```python
 from aiohttp import ClientSession
-from warp import WarpKeysGenerator
+from warp import WarpKeyGenerator
 
 async def main():
     async with ClientSession() as session:
